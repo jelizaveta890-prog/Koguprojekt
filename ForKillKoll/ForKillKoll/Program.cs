@@ -19,7 +19,7 @@
             
             
             Console.WriteLine("Sisesta korduste arv");
-            int arv = Convert.ToInt32(Console.ReadLine());
+             int arv = Convert.ToInt32(Console.ReadLine());
 
             for (int i = 0; i < arv; i++)
              //nüüd siia lisada kaks for loopi
