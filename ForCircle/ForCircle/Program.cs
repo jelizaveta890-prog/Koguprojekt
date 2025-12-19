@@ -36,8 +36,13 @@
                     }
                 }
                 Console.WriteLine();
-            }
+            }           
+            double ymbermoot = 2 * (Math.PI * radius);
+            Console.WriteLine("Ringi ümbermõõt on:" + ymbermoot);
 
+            double pindala = Math.PI * (radius * radius);
+            Console.WriteLine("Ringi pindala on:" + pindala);
+            Console.ReadKey();  
         }
     }
 }
