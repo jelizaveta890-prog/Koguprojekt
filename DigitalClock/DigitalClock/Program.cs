@@ -40,7 +40,7 @@ namespace DigitalClock
             //}
 
             //for luupiga digitaalne kell
-            for (; ; )
+            for ( ; ; )
             {
 
                 Console.Clear();
