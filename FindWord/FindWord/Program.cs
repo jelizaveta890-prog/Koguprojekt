@@ -23,6 +23,7 @@ namespace FindWord
               RegexOptions.Compiled |   RegexOptions.IgnoreCase);
             try 
             {
+                //faili asukohta peab muutma 
                 using (StreamReader sr = new StreamReader("C:/Users/opilane/Desktop/lemmad.txt", Encoding.Default))
                 {
                    int lineNumber = 0; 
